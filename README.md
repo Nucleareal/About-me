@@ -14,9 +14,9 @@
 * 唐揚げ、カツカレー、とんかつ定食、カツ丼、寿司
 
 ### サイト
-[Twitter](https://twitter.com/Nucleareal "Twitter")
-[Pixiv](http://pixiv.me/reiuzi___utsuho "Pixiv")
-[乞食リスト](http://www.amazon.co.jp/registry/wishlist/3VB6ZLS78HI4D/ "乞食リスト")
+* [Twitter](https://twitter.com/Nucleareal "Twitter")
+* [Pixiv](http://pixiv.me/reiuzi___utsuho "Pixiv")
+* [乞食リスト](http://www.amazon.co.jp/registry/wishlist/3VB6ZLS78HI4D/ "乞食リスト")
 
 ### 好きでも嫌いでもないもの
 消しゴム
