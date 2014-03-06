@@ -18,5 +18,9 @@
 * [Pixiv](http://pixiv.me/reiuzi___utsuho "Pixiv")
 * [乞食リスト](http://www.amazon.co.jp/registry/wishlist/3VB6ZLS78HI4D/ "乞食リスト")
 
+### 嫌いなもの
+* エターナルフォースブリザード(Twitterでツイートをするたびに逐一お気に入りに入れる人)
+* 僕が気に入らないと思ったもの
+
 ### 好きでも嫌いでもないもの
 消しゴム
