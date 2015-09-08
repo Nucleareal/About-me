@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<title>About-Nucleareal</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && 
+navigator.userAgent.indexOf('iPad') == -1) ||
+navigator.userAgent.indexOf('iPod') > 0 ||
+navigator.userAgent.indexOf('Android') > 0) {
+location.href = 'forSmartphone.html';
+}
+
+var target = '';
+var tpre = 0;
+var tval = 0;
+
+function onContentChanged()
+{
+	for(var i = 1; i <= 2; i++)
+	{
+		$('#test'+i).css({ 'display': 'none' });
+	}
+	$(target).css({
+		'display': 'block',
+		'margin-left': '-32em',
+		'opacity': '0'
+	});
+	$(target).animate({ 'marginLeft' : '2em', 'opacity' : '1'}, 'normal');
+}
+
+function onMenuClicked(num)
+{
+	target = '#test'+(num+1);
+	onContentChanged();
+	tpre = tval;
+}
+
+function onPageLoad(){
+	tval = 0;
+	tpre = -1;
+	onMenuClicked(0);
+}
+window.onload = onPageLoad;
+</script>
+	</head>
+	<body>
+		<div class="book1">
+		</div>
+		<div class="book2">
+			Nucleareal
+		</div>
+		<div>
+			<h1 class="name">名前</h1>
+			<div class="namechild">
+				Nucleareal
+			</div>
+			<h1 class="varioustitle1"><a href="#" onclick="onMenuClicked(0); return false;">すること</a></h1>
+			<div class="dispt" id="test1">
+				<ul>
+					<li>インターネットお絵かきマン</li>
+					<li>プログラミング</li>
+					<li>曲の打ち込み</li>
+					<li>SSも少々</li>
+					<li>Wonderland Wars (E1, ミクサ or サンドリヨン)</li>
+				</ul>
+			</div>
+			<h1 class="varioustitle2"><a href="#" onclick="onMenuClicked(1); return false;">好物</a></h1>
+			<div class="dispt" id="test2">
+				<ul>
+					<li>おくうちゃん(<a target="_new" href="http://www16.big.or.jp/~zun/html/game.html">東方Project</a>)</li>
+					<li>ミクサちゃん(<a target="_new" href="http://wonder.sega.jp/">Wonderland Wars</a>)</li>
+					<li>C#(<a target="_new" href="https://ja.wikipedia.org/wiki/Microsoft_Visual_C_Sharp">プログラミング言語</a>)</li>
+					<li><a target="_new" href="http://i-lohas.jp/">いろはす</a>(りんご味)</li>
+					<li><a target="_new" href="http://www16.big.or.jp/~zun/html/game.html">東方Project</a></li>
+					<li><a target="_new" href="http://www.yaokin.com/">うまい棒</a>(コンポタージュ味)</li>
+					<li>唐揚げ、とんかつ、牛ステーキ、寿司、ケーキ、チーズタルト、ソース焼きそば、お好み焼き</li>
+					<li>趣味が合う人</li>
+				</ul>
+			</div>
+			<h1 class="varioustitle3">？？？</h1>
+			
+			<div class="linkbase1">
+				<a href="https://twitter.com/Nucleareal" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @Nucleareal</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+			<div class="linkbase2">
+				<a target="_new" href="http://pixiv.me/reiuzi___utsuho"><img alt="pixivへのリンク" src="images/pixiv_user2807967.gif" /></a>
+			</div>
+			<div class="linkbase3">
+				<a target="_new" href="https://github.com/">Github</a>
+			</div>
+			<div class="linkbase4">
+				<a target="_new" href="http://qiita.com/Nucleareal">Qiita</a>
+			</div>
+			<div class="linkbase5">
+				<a target="_new" href="https://soundcloud.com/nuclearreiuzi">SoundCloud</a>
+			</div>
+			<div class="linkbase6">
+				<span class="linkref"><a target="_new" href="http://www.amazon.co.jp/registry/wishlist/3VB6ZLS78HI4D/">乞食リスト</a></span>
+			</div>
+		</div>
+	</body>
+</html>
